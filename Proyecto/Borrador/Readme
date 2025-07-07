@@ -1,1 +1,45 @@
-#Proyecto borrado de aplicación android.
+Proyecto: Seguimiento de Hábitos
+Nombre del Proyecto
+HabitTracker – Aplicación para registrar y seguir hábitos diarios.
+
+Descripción
+Esta aplicación permite a los usuarios crear hábitos personalizados y hacer seguimiento de su cumplimiento diario o semanal. 
+El objetivo es fomentar la constancia en actividades saludables como beber agua, leer, hacer ejercicio, etc.
+
+Objetivos
+Ayudar a los usuarios a mantener hábitos positivos.
+Visualizar el progreso de forma clara y motivadora.
+Ofrecer una interfaz simple y accesible.
+
+Exposición del Problema
+En la actualidad, muchas personas luchan por mantener hábitos consistentes debido a la falta de motivación, 
+seguimiento o recordatorios. Las soluciones existentes suelen ser complejas o poco intuitivas, lo que desincentiva su uso continuo. 
+HabitTracker busca resolver este problema ofreciendo una interfaz amigable, funcionalidades claras y herramientas visuales 
+que fomenten la disciplina y el compromiso.
+
+Plataforma
+a aplicación será desarrollada para el sistema operativo Android, utilizando Kotlin como lenguaje principal y Android Studio como 
+entorno de desarrollo.
+
+Tecnologías Utilizadas
+Control de versiones: Git y GitHub.
+
+
+Funcionalidades
+Registro.
+Crear, editar y eliminar hábitos.
+Marcar hábitos como completados por día.
+Crear hábitos personalizados.
+Marcar hábitos como completados.
+Ver progreso diario/semanal.
+
+Pantallas:
+Pantalla de inicio de sesión.
+Panel de hábitos.
+Formulario para agregar hábito.
+Vista de progreso.
+Editar perfil
+
+
+
+
