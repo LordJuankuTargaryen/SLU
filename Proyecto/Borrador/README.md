@@ -65,5 +65,4 @@ entorno de desarrollo.
 - Optimización de rendimiento y pruebas finales.
 
 ## Repositorio
-[GitHub Classroom - Habit Tracker](https://github.com/tu-usuario/habit-tracker)  
-[Descargar README]
+[GitHub Classroom - Habit Tracker]([https://github.com/tu-usuario/habit-tracker](https://github.com/LordJuankuTargaryen/SLU/tree/main/Proyecto/Borrador))  
