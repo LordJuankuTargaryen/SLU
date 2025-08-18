@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+<!-- colors.xml (night) -->
+<color name="background">#121212</color
+
     <color name="colorPrimary">#ff7043</color>
     <color name="colorPrimaryLight">#ffa270</color>
     <color name="colorPrimaryDark">#c63f17</color>
