@@ -1,7 +1,7 @@
 class NotificationReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         val builder = NotificationCompat.Builder(context, "habit_channel")
-            .setSmallIcon(R.drawable.ic_notification) // Asegúrate de tener este ícono
+            .setSmallIcon(R.drawable.ic_notification) 
             .setContentTitle("Recordatorio de hábito")
             .setContentText("¡No olvides registrar tus hábitos hoy!")
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
