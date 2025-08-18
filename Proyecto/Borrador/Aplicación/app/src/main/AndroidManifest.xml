@@ -30,6 +30,7 @@
         </receiver>
 
         <service android:name=".services.NotificationService"/>
+        <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     </application>
 
 
