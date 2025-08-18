@@ -1,5 +1,17 @@
 package com.santtuhyvarinen.habittracker.activities
 
+
+if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+    val channel = NotificationChannel(
+        "habit_channel",
+        "Habit Notifications",
+        NotificationManager.IMPORTANCE_DEFAULT
+    )
+    val manager = getSystemService(NotificationManager::class.java)
+    manager.createNotificationChannel(channel)
+}
+
+
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
