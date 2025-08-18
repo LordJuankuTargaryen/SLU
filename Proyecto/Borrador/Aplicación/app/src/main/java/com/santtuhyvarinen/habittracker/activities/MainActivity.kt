@@ -72,6 +72,24 @@ class MainActivity : AppCompatActivity() {
 
         SettingsUtil.startNotificationServiceIfEnabled(this)
     }
+val intent = Intent(this, NotificationReceiver::class.java)
+val pendingIntent = PendingIntent.getBroadcast(
+    this, 0, intent, PendingIntent.FLAG_IMMUTABLE
+)
+
+val alarmManager = getSystemService(Context.ALARM_SERVICE) as AlarmManager
+val calendar = Calendar.getInstance().apply {
+    set(Calendar.HOUR_OF_DAY, 8) // Hora deseada
+    set(Calendar.MINUTE, 0)
+    set(Calendar.SECOND, 0)
+}
+
+alarmManager.setRepeating(
+    AlarmManager.RTC_WAKEUP,
+    calendar.timeInMillis,
+    AlarmManager.INTERVAL_DAY,
+    pendingIntent
+)
 
     private fun hideNavigationElements(hidden : Boolean) {
         binding.bottomNavigation.visibility = if(hidden) View.GONE else View.VISIBLE
