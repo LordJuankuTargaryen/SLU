@@ -54,14 +54,17 @@ entorno de desarrollo.
 - Mejora en la persistencia de datos.
 - Corrección de errores en la navegación.
 
-### v1.3 – Módulo 4 (Actual)
+### v1.3 – Módulo 4
 - Refactorización del código para mejorar legibilidad.
 - Añadido sistema de estadísticas semanales.
 - Preparación para publicación en GitHub Classroom.
 
-### v1.4 – Próximos cambios (Módulo 5–7)
+### v1.4 – Módulo 5 
 - Implementación de temas oscuros.
-- Exportación de datos del usuario.
+
+### v1.5 – Módulo 6 
+
+### v1.6 – Módulo 7-8
 - Optimización de rendimiento y pruebas finales.
 
 ## Repositorio
